@@ -42,13 +42,23 @@ export const Bicycle = () => {
                             transition={{ duration: 0.7, delay: 0.3 * index }}
                             viewport={{ once: true }}
                         >
-                            <div className='sm:w-[262.8px] w-full sm:h-[174px] overflow-hidden rounded-xl'>
+                            {/* <div className='sm:w-[262.8px] w-full sm:h-[174px] overflow-hidden rounded-xl'>
                                 <Image
                                     src={bicycle.image}
                                     alt='bicycle image'
                                     width={640}
                                     height={424}
                                     style={{ width: "100%", height: "100%" }}
+                                    className='group-hover:scale-110 transition-all '
+                                />
+                            </div> */}
+                            <div className='w-full overflow-hidden rounded-xl'>
+                                <Image
+                                    src={bicycle.image}
+                                    alt='bicycle image'
+                                    width={263}
+                                    height={174}
+                                    style={{ height: "auto" }}
                                     className='group-hover:scale-110 transition-all '
                                 />
                             </div>
