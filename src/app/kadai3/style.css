@@ -1,8 +1,4 @@
-@config './tailwind.3.config.js'
+@config '../../../tailwind/tailwind.3.config.js';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-*{
-    transition: all 0.8s;
-}

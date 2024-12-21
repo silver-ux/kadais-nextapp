@@ -1,4 +1,4 @@
-@config './tailwind.2.config.js';
+@config '../../../tailwind/tailwind.2.config.js';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,28 +9,25 @@
     }
 }
 
-*{
-    transition: all 0.8s;
-}
-
-body{
+body {
     background-color: #F4F9FF;
 }
 
-li{
+li {
     list-style: decimal;
     margin-bottom: 20px;
 }
 
-dl{
+dl {
     font-size: 14px;
     border-top: solid 1px #dedede;
     border-bottom: solid 1px #dedede;
 }
 
-dt{
+dt {
     width: 25%;
 }
-dd{
+
+dd {
     width: 75%;
 }
