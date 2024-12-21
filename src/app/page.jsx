@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { Header } from "./components/HomePage/Header";
+import { Header } from "./components/Header";
 
 export default function Home() {
 
-  const sites = ["kadai1", "kadai2"];
+  const sites = ["kadai1", "kadai2", "kadai3"];
 
   return (
     <>

@@ -5,9 +5,10 @@ import fluid, { extract, screens, fontSize } from 'fluid-tailwind'
 export default {
   content: {
     files: [
-      "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-      "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+      // "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
       "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+      "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+
     ],
     extract,
   },
@@ -21,5 +22,6 @@ export default {
     screens,
     fontSize,
   },
-  plugins: [fluid],
+  // plugins: [fluid],
+  plugins: [],
 };

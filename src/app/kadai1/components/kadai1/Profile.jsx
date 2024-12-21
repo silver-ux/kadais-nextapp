@@ -22,7 +22,7 @@ export const Profile = () => {
                 alt='Profile image'
             />
 
-            <div className='w-full sm:w-[48%] ml-[30px]'>
+            <div className='w-full sm:w-[50%] ml-[30px]'>
                 <h3 className='font-bold'>KAKERU MIYAICHI</h3>
                 <p className='pt-2.5 text-[14.4px]'>テキストテキストテキストテキストテキストテキストテキスト<br />テキストテキストテキストテキストテキストテキストテキスト<br />テキストテキストテキストテキストテキストテキストテキスト</p>
             </div>

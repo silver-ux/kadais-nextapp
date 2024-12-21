@@ -1,0 +1,36 @@
+@config './tailwind.2.config.js';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .container-layout {
+        @apply max-w-[600px] mx-auto;
+    }
+}
+
+*{
+    transition: all 0.8s;
+}
+
+body{
+    background-color: #F4F9FF;
+}
+
+li{
+    list-style: decimal;
+    margin-bottom: 20px;
+}
+
+dl{
+    font-size: 14px;
+    border-top: solid 1px #dedede;
+    border-bottom: solid 1px #dedede;
+}
+
+dt{
+    width: 25%;
+}
+dd{
+    width: 75%;
+}

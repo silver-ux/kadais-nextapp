@@ -8,6 +8,7 @@ import img2 from 'public/kadai1img/bicycle2.jpg'
 import img3 from 'public/kadai1img/bicycle3.jpg'
 import { motion } from 'motion/react'
 import { spring } from 'motion';
+import { ToTopBtn } from 'src/app/components/ToTopBtn';
 
 
 export const Bicycle = () => {
@@ -57,9 +58,7 @@ export const Bicycle = () => {
                     </Link>
                 ))}
             </div>
-            <button className='block m-auto text-3xl font-bold text-slate-100 bg-slate-600 rounded-xl py-3 px-6 hover:bg-slate-800 transition-all hover:scale-105 active:scale-95'>
-                <Link href={"/"}>To HomePage</Link>
-            </button>
-        </div>
+            <ToTopBtn />
+        </div >
     )
 }
